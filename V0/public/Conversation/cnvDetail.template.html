@@ -1,0 +1,19 @@
+<h2>Conversations</h2>
+<div class="list-group">
+   <div class="list-group-item" ng-repeat="msg in msgs">
+      <a href="">{{msg.email}} - {{msg.whenMade | date : "medium"}}</a>
+   </div>
+</div>
+<form>
+   <fieldset class="form-group" cols="90" rows="20">
+      <p>
+         <textarea ng-model="message"></textarea>
+      </p>
+      <p>
+         <button class="btn btn-primary" type="button" style="margin-top:5px"
+          ng-click="newMessage()">
+            New Message
+         </button>
+      </p>
+   </fieldset>
+</form>

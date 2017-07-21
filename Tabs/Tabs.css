@@ -1,0 +1,37 @@
+.tab-block {
+   width: 100%;
+   background-color: #EEF;
+}
+.row {
+   position: relative;
+   clear:both;
+   overflow:hidden;
+   z-index:2;
+}
+.back-row {
+   position: relative;
+   left: 2px;
+   top: 8px;
+   z-index:1;
+}
+.tab {
+   border: solid 1px;
+   width: 100px;
+   float: left;
+   padding: 4px 8px;
+   background-color: #DDF;
+}
+.selected-tab {
+   background-color:#BBF;
+}
+
+.page {
+   display:none;
+   height:300px;
+   border: solid 2px;
+   background-color:#EEE;
+}
+
+.selected-page {
+   display:block;
+}

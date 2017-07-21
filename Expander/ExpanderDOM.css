@@ -1,0 +1,35 @@
+.section {
+   border: solid 1px;
+   border-color: blue;
+}
+.content-block {
+   padding-left: 15px;
+   clear: both;
+}
+.closed-block {
+   display: none;
+}
+.control {
+   float: left;
+   background-size: 100%;
+   width: 20px;
+   height: 20px;
+}
+.up {
+   background-image: url(up.png);
+}
+.down {
+   background-image: url(down.png);
+}
+.title {
+   float: left;
+   width: 21em;
+   background-color: rgb(198, 255, 211);
+}
+.closed {
+   background-color: rgb(255, 157, 167);
+}
+.control-block {
+   clear: both;
+   overflow: hidden;
+}

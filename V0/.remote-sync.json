@@ -1,0 +1,16 @@
+{
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "129.65.128.108",
+  "port": "22",
+  "target": "/home/jpe/V0",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "jpe",
+  "password": "J272Q16!~kl",
+  "watch": [],
+  "transport": "scp"
+}
